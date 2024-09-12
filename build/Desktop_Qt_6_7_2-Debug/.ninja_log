@@ -1,0 +1,14 @@
+# ninja log v6
+3	80	1726115394604657714	GestionBibliotecaire_autogen/mocs_compilation.cpp	c093a9718e37ab92
+81	4364	1726115394684657716	CMakeFiles/GestionBibliotecaire.dir/ajouterunlivre.cpp.o	c66c89478cba8615
+3	80	1726115394604657714	GestionBibliotecaire_autogen/timestamp	c093a9718e37ab92
+58	501	1726115458900659108	build.ninja	b6f3f0f35b2aac35
+81	4371	1726115394680657716	CMakeFiles/GestionBibliotecaire.dir/supprimerlecteur.cpp.o	77ce5d925f4c64d8
+585	6160	1726115185328653178	CMakeFiles/GestionBibliotecaire.dir/main.cpp.o	48b0c8ce2100b07
+4371	4771	1726115398972657809	GestionBibliotecaire	90a2d505783128f7
+81	4217	1726115394680657716	CMakeFiles/GestionBibliotecaire.dir/modifierunlecteur.cpp.o	b996f66dc7eaae07
+80	4339	1726115394680657716	CMakeFiles/GestionBibliotecaire.dir/mainwindow.cpp.o	317c8d47c2445497
+3	80	1726115394604657714	/home/aina/Documents/GestionBibliotecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/mocs_compilation.cpp	c093a9718e37ab92
+585	6100	1726115185328653178	CMakeFiles/GestionBibliotecaire.dir/GestionBibliotecaire_autogen/mocs_compilation.cpp.o	689e12110eb523b8
+3	80	1726115394604657714	/home/aina/Documents/GestionBibliotecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/timestamp	c093a9718e37ab92
+80	4292	1726115394680657716	CMakeFiles/GestionBibliotecaire.dir/createlecteur.cpp.o	cec8985e97818d34

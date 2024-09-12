@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>972</width>
+    <height>980</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="creationficherLecteur">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>10</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Creation ficher Lecteur</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ajoutLecteur">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>80</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ajouter un nouvel lecteur</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ModifLecteur">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>150</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Modifier un lecteur</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SupprLecteur">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>220</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Supprimer un Lecteur</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CreeFicherLivre">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>290</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Creation ficher livre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AjoutLivre">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>360</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ajouter un nouveau livre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SupprLivre">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>500</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Suppression d'un livre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SaisieDesPretes">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>570</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Saisie des pretes</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ModifPret">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>640</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Modification d'un pret</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SupprPret">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>710</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Suppression d'un pret</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ListPret">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>780</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Liste des prete d'un Lecteur</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>850</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Situtation des livre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SupprLivre_2">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>430</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Modifier un Livre</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>972</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
