@@ -3,4 +3,5 @@
 #include "EWIEGA46WW/moc_createlecteur.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "EWIEGA46WW/moc_modifierunlecteur.cpp"
+#include "EWIEGA46WW/moc_modifierunlivre.cpp"
 #include "EWIEGA46WW/moc_supprimerlecteur.cpp"

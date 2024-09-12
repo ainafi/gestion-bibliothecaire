@@ -35,6 +35,10 @@ set(PROJECT_SOURCES
         ajouterunlivre.h
         ajouterunlivre.ui
 
+        modifierunlivre.cpp
+        modifierunlecteur.h
+        modifierunlecteur.ui
+
 
 )
 

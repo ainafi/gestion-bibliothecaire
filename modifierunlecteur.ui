@@ -17,9 +17,9 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>10</y>
+     <y>50</y>
      <width>501</width>
-     <height>61</height>
+     <height>41</height>
     </rect>
    </property>
    <layout class="QFormLayout" name="formLayout">
@@ -33,43 +33,33 @@
     <item row="0" column="1">
      <widget class="QLineEdit" name="NumeroLecteur"/>
     </item>
-    <item row="1" column="0">
-     <widget class="QLabel" name="label_2">
-      <property name="text">
-       <string>Nom Lecteur</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="1">
-     <widget class="QLineEdit" name="NomLecteur"/>
-    </item>
    </layout>
   </widget>
   <widget class="QPushButton" name="SaveModif">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>90</y>
+     <x>120</x>
+     <y>120</y>
      <width>121</width>
      <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
-background:green;
+background:blue;
 color:white;
 font-weight:bold;
 }</string>
    </property>
    <property name="text">
-    <string>Sauvegader</string>
+    <string>Rechercher</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>90</y>
+     <x>260</x>
+     <y>120</y>
      <width>121</width>
      <height>51</height>
     </rect>
@@ -83,6 +73,24 @@ font-weight:bold;
    </property>
    <property name="text">
     <string>Annuler</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>20</y>
+     <width>251</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-size:15px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Entrer le numero du lecteur</string>
    </property>
   </widget>
  </widget>

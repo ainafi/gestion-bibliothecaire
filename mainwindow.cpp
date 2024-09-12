@@ -4,6 +4,7 @@
 #include "modifierunlecteur.h"
 #include "supprimerlecteur.h"
 #include "ajouterunlivre.h"
+#include "modifierunlivre.h"
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow),
@@ -13,7 +14,8 @@ MainWindow::MainWindow(QWidget *parent)
     ptrSupprimerLecteur(nullptr),
 
 //livre
-    ptrAjouterUnLivre(nullptr)
+    ptrAjouterUnLivre(nullptr),
+    ptrModifierUnLivre(nullptr)
 {
     ui->setupUi(this);
 }
@@ -27,6 +29,7 @@ MainWindow::~MainWindow()
 
     //livre
     delete ptrAjouterUnLivre;
+    delete ptrModifierUnLivre;
 }
 
 //lecteur
@@ -66,5 +69,14 @@ void MainWindow::on_AjoutLivre_clicked()
         ptrAjouterUnLivre=new ajouterUnLivre();
     }
     ptrAjouterUnLivre->show();
+}
+
+
+void MainWindow::on_SupprLivre_2_clicked()
+{
+    if(!ptrModifierUnLivre){
+        ptrModifierUnLivre=new modifierUnLivre();
+    }
+    ptrModifierUnLivre->show();
 }
 
