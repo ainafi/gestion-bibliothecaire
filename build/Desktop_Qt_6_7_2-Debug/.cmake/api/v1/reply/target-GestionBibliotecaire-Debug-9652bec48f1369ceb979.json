@@ -14,7 +14,6 @@
 			"_qt_internal_create_executable",
 			"qt6_add_executable",
 			"qt_add_executable",
-			"install",
 			"target_link_libraries",
 			"set_target_properties",
 			"include",
@@ -69,126 +68,120 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 110,
+				"line" : 88,
 				"parent" : 0
 			},
 			{
-				"command" : 5,
-				"file" : 1,
-				"line" : 93,
-				"parent" : 0
-			},
-			{
-				"command" : 8,
+				"command" : 7,
 				"file" : 1,
 				"line" : 13,
 				"parent" : 0
 			},
 			{
 				"file" : 4,
-				"parent" : 7
-			},
-			{
-				"command" : 8,
-				"file" : 4,
-				"line" : 169,
-				"parent" : 8
-			},
-			{
-				"file" : 3,
-				"parent" : 9
+				"parent" : 6
 			},
 			{
 				"command" : 7,
+				"file" : 4,
+				"line" : 169,
+				"parent" : 7
+			},
+			{
+				"file" : 3,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
 				"file" : 3,
 				"line" : 55,
-				"parent" : 10
+				"parent" : 9
 			},
 			{
 				"file" : 2,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 61,
 				"parent" : 11
 			},
 			{
 				"command" : 6,
-				"file" : 2,
-				"line" : 61,
-				"parent" : 12
-			},
-			{
-				"command" : 5,
-				"file" : 0,
-				"line" : 576,
-				"parent" : 2
-			},
-			{
-				"command" : 7,
 				"file" : 3,
 				"line" : 43,
-				"parent" : 10
+				"parent" : 9
 			},
 			{
 				"file" : 10,
-				"parent" : 15
-			},
-			{
-				"command" : 11,
-				"file" : 10,
-				"line" : 42,
-				"parent" : 16
-			},
-			{
-				"command" : 9,
-				"file" : 7,
-				"line" : 111,
-				"parent" : 17
-			},
-			{
-				"command" : 8,
-				"file" : 6,
-				"line" : 76,
-				"parent" : 18
-			},
-			{
-				"file" : 9,
-				"parent" : 19
-			},
-			{
-				"command" : 7,
-				"file" : 9,
-				"line" : 43,
-				"parent" : 20
-			},
-			{
-				"file" : 8,
-				"parent" : 21
+				"parent" : 13
 			},
 			{
 				"command" : 10,
-				"file" : 8,
-				"line" : 33,
-				"parent" : 22
-			},
-			{
-				"command" : 9,
-				"file" : 7,
-				"line" : 36,
-				"parent" : 23
+				"file" : 10,
+				"line" : 42,
+				"parent" : 14
 			},
 			{
 				"command" : 8,
+				"file" : 7,
+				"line" : 111,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
 				"file" : 6,
 				"line" : 76,
+				"parent" : 16
+			},
+			{
+				"file" : 9,
+				"parent" : 17
+			},
+			{
+				"command" : 6,
+				"file" : 9,
+				"line" : 43,
+				"parent" : 18
+			},
+			{
+				"file" : 8,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 33,
+				"parent" : 20
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 36,
+				"parent" : 21
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 76,
+				"parent" : 22
+			},
+			{
+				"file" : 5,
+				"parent" : 23
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 51,
 				"parent" : 24
 			},
 			{
-				"file" : 5,
-				"parent" : 25
-			},
-			{
-				"command" : 5,
-				"file" : 5,
-				"line" : 51,
-				"parent" : 26
+				"command" : 4,
+				"file" : 0,
+				"line" : 576,
+				"parent" : 2
 			}
 		]
 	},
@@ -201,22 +194,26 @@
 					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 26,
 					"fragment" : "-fPIC"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 14,
+					"backtrace" : 26,
 					"define" : "QT_CORE_LIB"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 5,
 					"define" : "QT_GUI_LIB"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 5,
+					"define" : "QT_SQL_LIB"
+				},
+				{
+					"backtrace" : 5,
 					"define" : "QT_WIDGETS_LIB"
 				}
 			],
@@ -227,29 +224,34 @@
 					"path" : "/home/aina/Documents/GestionBibliotecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/include"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 26,
 					"isSystem" : true,
 					"path" : "/home/aina/Qt/6.7.2/gcc_64/include/QtCore"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 26,
 					"isSystem" : true,
 					"path" : "/home/aina/Qt/6.7.2/gcc_64/include"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 26,
 					"isSystem" : true,
 					"path" : "/home/aina/Qt/6.7.2/gcc_64/mkspecs/linux-g++"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 5,
 					"isSystem" : true,
 					"path" : "/home/aina/Qt/6.7.2/gcc_64/include/QtWidgets"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 5,
 					"isSystem" : true,
 					"path" : "/home/aina/Qt/6.7.2/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/home/aina/Qt/6.7.2/gcc_64/include/QtSql"
 				}
 			],
 			"language" : "CXX",
@@ -257,8 +259,8 @@
 			{
 				"backtraces" : 
 				[
-					14,
-					14
+					26,
+					26
 				],
 				"standard" : "17"
 			},
@@ -290,20 +292,6 @@
 		}
 	],
 	"id" : "GestionBibliotecaire::@6890427a1f51a3e7e1df",
-	"install" : 
-	{
-		"destinations" : 
-		[
-			{
-				"backtrace" : 5,
-				"path" : "bin"
-			}
-		],
-		"prefix" : 
-		{
-			"path" : "/usr/local"
-		}
-	},
 	"link" : 
 	{
 		"commandFragments" : 
@@ -317,27 +305,32 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/home/aina/Qt/6.7.2/gcc_64/lib:",
+				"fragment" : "-Wl,-rpath,/home/aina/Qt/6.7.2/gcc_64/lib",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 5,
 				"fragment" : "/home/aina/Qt/6.7.2/gcc_64/lib/libQt6Widgets.so.6.7.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 13,
+				"backtrace" : 5,
+				"fragment" : "/home/aina/Qt/6.7.2/gcc_64/lib/libQt6Sql.so.6.7.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
 				"fragment" : "/home/aina/Qt/6.7.2/gcc_64/lib/libQt6Gui.so.6.7.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 14,
-				"fragment" : "/home/aina/Qt/6.7.2/gcc_64/lib/libQt6Core.so.6.7.2",
+				"backtrace" : 25,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGL.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 27,
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libGL.so",
+				"backtrace" : 26,
+				"fragment" : "/home/aina/Qt/6.7.2/gcc_64/lib/libQt6Core.so.6.7.2",
 				"role" : "libraries"
 			}
 		],
@@ -393,7 +386,8 @@
 				38,
 				39,
 				40,
-				41
+				41,
+				42
 			]
 		},
 		{
@@ -410,14 +404,14 @@
 				28,
 				30,
 				31,
-				42
+				43
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				43
+				44
 			]
 		}
 	],
@@ -595,6 +589,11 @@
 			"backtrace" : 4,
 			"path" : "supprimerunlivre.ui",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "databaseHeader.h",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,

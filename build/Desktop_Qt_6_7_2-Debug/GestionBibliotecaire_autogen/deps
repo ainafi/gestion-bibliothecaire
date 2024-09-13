@@ -8,6 +8,7 @@ GestionBibliotecaire_autogen/timestamp: \
 	/home/aina/Documents/GestionBibliotecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/moc_predefs.h \
 	/home/aina/Documents/GestionBibliotecaire/createlecteur.cpp \
 	/home/aina/Documents/GestionBibliotecaire/createlecteur.h \
+	/home/aina/Documents/GestionBibliotecaire/databaseHeader.h \
 	/home/aina/Documents/GestionBibliotecaire/main.cpp \
 	/home/aina/Documents/GestionBibliotecaire/mainwindow.cpp \
 	/home/aina/Documents/GestionBibliotecaire/mainwindow.h \
@@ -374,6 +375,35 @@ GestionBibliotecaire_autogen/timestamp: \
 	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
 	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
 	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QMYSQLDriverPluginAdditionalTargetInfo.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QMYSQLDriverPluginConfig.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QMYSQLDriverPluginTargets-relwithdebinfo.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QMYSQLDriverPluginTargets.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginAdditionalTargetInfo.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginConfig.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginTargets-relwithdebinfo.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginTargets.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginAdditionalTargetInfo.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginConfig.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginTargets-relwithdebinfo.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginTargets.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginAdditionalTargetInfo.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfig.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets-relwithdebinfo.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginConfig.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-relwithdebinfo.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6SqlAdditionalTargetInfo.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6SqlConfig.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6SqlConfigVersion.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6SqlConfigVersionImpl.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6SqlDependencies.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6SqlPlugins.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6SqlTargets-relwithdebinfo.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6SqlTargets.cmake \
+	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6SqlVersionlessTargets.cmake \
 	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
 	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
 	/home/aina/Qt/6.7.2/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \

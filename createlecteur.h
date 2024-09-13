@@ -15,6 +15,9 @@ public:
     explicit createLecteur(QWidget *parent = nullptr);
     ~createLecteur();
 
+private slots:
+    void on_ajouter_clicked();
+
 private:
     Ui::createLecteur *ui;
 };

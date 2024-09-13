@@ -37,7 +37,7 @@ font-size:15px
      </widget>
     </item>
     <item row="0" column="1">
-     <widget class="QLineEdit" name="lineEdit"/>
+     <widget class="QLineEdit" name="numLecteur"/>
     </item>
     <item row="1" column="0">
      <widget class="QLabel" name="label_2">
@@ -52,11 +52,11 @@ font-size:15px;
      </widget>
     </item>
     <item row="1" column="1">
-     <widget class="QLineEdit" name="lineEdit_2"/>
+     <widget class="QLineEdit" name="nomLecteur"/>
     </item>
    </layout>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="ajouter">
    <property name="geometry">
     <rect>
      <x>180</x>
@@ -76,7 +76,7 @@ font-weight:bold;
     <string>Ajouter</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="restorer">
    <property name="geometry">
     <rect>
      <x>350</x>
