@@ -394,9 +394,33 @@
 			null
 		],
 		[
+			"/home/aina/Documents/GestionBibliotecaire/modifierunpret.h",
+			"MU",
+			"EWIEGA46WW/moc_modifierunpret.cpp",
+			null
+		],
+		[
+			"/home/aina/Documents/GestionBibliotecaire/prete.h",
+			"MU",
+			"EWIEGA46WW/moc_prete.cpp",
+			null
+		],
+		[
 			"/home/aina/Documents/GestionBibliotecaire/supprimerlecteur.h",
 			"MU",
 			"EWIEGA46WW/moc_supprimerlecteur.cpp",
+			null
+		],
+		[
+			"/home/aina/Documents/GestionBibliotecaire/supprimerunlivre.h",
+			"MU",
+			"EWIEGA46WW/moc_supprimerunlivre.cpp",
+			null
+		],
+		[
+			"/home/aina/Documents/GestionBibliotecaire/supprimerunpret.h",
+			"MU",
+			"EWIEGA46WW/moc_supprimerunpret.cpp",
 			null
 		]
 	],
@@ -486,7 +510,23 @@
 			null
 		],
 		[
+			"/home/aina/Documents/GestionBibliotecaire/modifierunpret.cpp",
+			"MU",
+			null
+		],
+		[ "/home/aina/Documents/GestionBibliotecaire/prete.cpp", "MU", null ],
+		[
 			"/home/aina/Documents/GestionBibliotecaire/supprimerlecteur.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/aina/Documents/GestionBibliotecaire/supprimerunlivre.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/aina/Documents/GestionBibliotecaire/supprimerunpret.cpp",
 			"MU",
 			null
 		]

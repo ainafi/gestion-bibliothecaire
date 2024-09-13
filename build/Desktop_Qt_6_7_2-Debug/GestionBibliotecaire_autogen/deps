@@ -15,8 +15,16 @@ GestionBibliotecaire_autogen/timestamp: \
 	/home/aina/Documents/GestionBibliotecaire/modifierunlecteur.h \
 	/home/aina/Documents/GestionBibliotecaire/modifierunlivre.cpp \
 	/home/aina/Documents/GestionBibliotecaire/modifierunlivre.h \
+	/home/aina/Documents/GestionBibliotecaire/modifierunpret.cpp \
+	/home/aina/Documents/GestionBibliotecaire/modifierunpret.h \
+	/home/aina/Documents/GestionBibliotecaire/prete.cpp \
+	/home/aina/Documents/GestionBibliotecaire/prete.h \
 	/home/aina/Documents/GestionBibliotecaire/supprimerlecteur.cpp \
 	/home/aina/Documents/GestionBibliotecaire/supprimerlecteur.h \
+	/home/aina/Documents/GestionBibliotecaire/supprimerunlivre.cpp \
+	/home/aina/Documents/GestionBibliotecaire/supprimerunlivre.h \
+	/home/aina/Documents/GestionBibliotecaire/supprimerunpret.cpp \
+	/home/aina/Documents/GestionBibliotecaire/supprimerunpret.h \
 	/home/aina/Qt/6.7.2/gcc_64/include/QtCore/q20functional.h \
 	/home/aina/Qt/6.7.2/gcc_64/include/QtCore/q20memory.h \
 	/home/aina/Qt/6.7.2/gcc_64/include/QtCore/q20type_traits.h \
@@ -675,5 +683,9 @@ GestionBibliotecaire_autogen/timestamp: \
 	/home/aina/Documents/GestionBibliotecaire/mainwindow.ui \
 	/home/aina/Documents/GestionBibliotecaire/modifierunlecteur.ui \
 	/home/aina/Documents/GestionBibliotecaire/modifierunlivre.ui \
+	/home/aina/Documents/GestionBibliotecaire/modifierunpret.ui \
+	/home/aina/Documents/GestionBibliotecaire/prete.ui \
 	/home/aina/Documents/GestionBibliotecaire/supprimerlecteur.ui \
+	/home/aina/Documents/GestionBibliotecaire/supprimerunlivre.ui \
+	/home/aina/Documents/GestionBibliotecaire/supprimerunpret.ui \
 	/home/aina/Qt/Tools/CMake/bin/cmake

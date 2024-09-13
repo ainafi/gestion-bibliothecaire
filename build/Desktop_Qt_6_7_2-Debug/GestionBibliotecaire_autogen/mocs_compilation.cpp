@@ -4,4 +4,8 @@
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "EWIEGA46WW/moc_modifierunlecteur.cpp"
 #include "EWIEGA46WW/moc_modifierunlivre.cpp"
+#include "EWIEGA46WW/moc_modifierunpret.cpp"
+#include "EWIEGA46WW/moc_prete.cpp"
 #include "EWIEGA46WW/moc_supprimerlecteur.cpp"
+#include "EWIEGA46WW/moc_supprimerunlivre.cpp"
+#include "EWIEGA46WW/moc_supprimerunpret.cpp"

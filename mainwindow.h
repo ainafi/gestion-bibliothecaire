@@ -18,6 +18,12 @@ class supprimerLecteur;
 
 class ajouterUnLivre;
 class modifierUnLivre;
+class supprimerUnLivre;
+
+//prete
+class prete;
+class modifierUnPret;
+class supprimerUnPret;
 
 
 class MainWindow : public QMainWindow
@@ -39,14 +45,27 @@ private slots:
 
     void on_SupprLivre_2_clicked();
 
+    void on_SupprLivre_clicked();
+
+    void on_SaisieDesPretes_clicked();
+
+    void on_ModifPret_clicked();
+
+    void on_SupprPret_clicked();
+
 private:
     Ui::MainWindow *ui;
     createLecteur *ptrCreateLecteur;
     modifierUnLecteur *ptrModifierLecteur;
     supprimerLecteur *ptrSupprimerLecteur;
 
-    //livre
     ajouterUnLivre *ptrAjouterUnLivre;
     modifierUnLivre *ptrModifierUnLivre;
+    supprimerUnLivre *ptrSupprimerUnLivre;
+
+    //prete
+    prete *ptrPrete;
+    modifierUnPret *ptrModifierUnPret;
+    supprimerUnPret *ptrSupprimerUnPret;
 };
 #endif // MAINWINDOW_H

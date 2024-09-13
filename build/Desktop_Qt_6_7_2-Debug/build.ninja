@@ -113,6 +113,38 @@ build CMakeFiles/GestionBibliotecaire.dir/modifierunlivre.cpp.o: CXX_COMPILER__G
   OBJECT_DIR = CMakeFiles/GestionBibliotecaire.dir
   OBJECT_FILE_DIR = CMakeFiles/GestionBibliotecaire.dir
 
+build CMakeFiles/GestionBibliotecaire.dir/supprimerunlivre.cpp.o: CXX_COMPILER__GestionBibliotecaire_unscanned_Debug /home/aina/Documents/GestionBibliotecaire/supprimerunlivre.cpp || cmake_object_order_depends_target_GestionBibliotecaire
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GestionBibliotecaire.dir/supprimerunlivre.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/aina/Documents/GestionBibliotecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/include -isystem /home/aina/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/aina/Qt/6.7.2/gcc_64/include -isystem /home/aina/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/aina/Qt/6.7.2/gcc_64/include/QtWidgets -isystem /home/aina/Qt/6.7.2/gcc_64/include/QtGui
+  OBJECT_DIR = CMakeFiles/GestionBibliotecaire.dir
+  OBJECT_FILE_DIR = CMakeFiles/GestionBibliotecaire.dir
+
+build CMakeFiles/GestionBibliotecaire.dir/prete.cpp.o: CXX_COMPILER__GestionBibliotecaire_unscanned_Debug /home/aina/Documents/GestionBibliotecaire/prete.cpp || cmake_object_order_depends_target_GestionBibliotecaire
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GestionBibliotecaire.dir/prete.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/aina/Documents/GestionBibliotecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/include -isystem /home/aina/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/aina/Qt/6.7.2/gcc_64/include -isystem /home/aina/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/aina/Qt/6.7.2/gcc_64/include/QtWidgets -isystem /home/aina/Qt/6.7.2/gcc_64/include/QtGui
+  OBJECT_DIR = CMakeFiles/GestionBibliotecaire.dir
+  OBJECT_FILE_DIR = CMakeFiles/GestionBibliotecaire.dir
+
+build CMakeFiles/GestionBibliotecaire.dir/modifierunpret.cpp.o: CXX_COMPILER__GestionBibliotecaire_unscanned_Debug /home/aina/Documents/GestionBibliotecaire/modifierunpret.cpp || cmake_object_order_depends_target_GestionBibliotecaire
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GestionBibliotecaire.dir/modifierunpret.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/aina/Documents/GestionBibliotecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/include -isystem /home/aina/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/aina/Qt/6.7.2/gcc_64/include -isystem /home/aina/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/aina/Qt/6.7.2/gcc_64/include/QtWidgets -isystem /home/aina/Qt/6.7.2/gcc_64/include/QtGui
+  OBJECT_DIR = CMakeFiles/GestionBibliotecaire.dir
+  OBJECT_FILE_DIR = CMakeFiles/GestionBibliotecaire.dir
+
+build CMakeFiles/GestionBibliotecaire.dir/supprimerunpret.cpp.o: CXX_COMPILER__GestionBibliotecaire_unscanned_Debug /home/aina/Documents/GestionBibliotecaire/supprimerunpret.cpp || cmake_object_order_depends_target_GestionBibliotecaire
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GestionBibliotecaire.dir/supprimerunpret.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/aina/Documents/GestionBibliotecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/include -isystem /home/aina/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/aina/Qt/6.7.2/gcc_64/include -isystem /home/aina/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/aina/Qt/6.7.2/gcc_64/include/QtWidgets -isystem /home/aina/Qt/6.7.2/gcc_64/include/QtGui
+  OBJECT_DIR = CMakeFiles/GestionBibliotecaire.dir
+  OBJECT_FILE_DIR = CMakeFiles/GestionBibliotecaire.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target GestionBibliotecaire
@@ -121,7 +153,7 @@ build CMakeFiles/GestionBibliotecaire.dir/modifierunlivre.cpp.o: CXX_COMPILER__G
 #############################################
 # Link the executable GestionBibliotecaire
 
-build GestionBibliotecaire: CXX_EXECUTABLE_LINKER__GestionBibliotecaire_Debug CMakeFiles/GestionBibliotecaire.dir/GestionBibliotecaire_autogen/mocs_compilation.cpp.o CMakeFiles/GestionBibliotecaire.dir/main.cpp.o CMakeFiles/GestionBibliotecaire.dir/mainwindow.cpp.o CMakeFiles/GestionBibliotecaire.dir/createlecteur.cpp.o CMakeFiles/GestionBibliotecaire.dir/modifierunlecteur.cpp.o CMakeFiles/GestionBibliotecaire.dir/supprimerlecteur.cpp.o CMakeFiles/GestionBibliotecaire.dir/ajouterunlivre.cpp.o CMakeFiles/GestionBibliotecaire.dir/modifierunlivre.cpp.o | /home/aina/Qt/6.7.2/gcc_64/lib/libQt6Widgets.so.6.7.2 /home/aina/Qt/6.7.2/gcc_64/lib/libQt6Gui.so.6.7.2 /home/aina/Qt/6.7.2/gcc_64/lib/libQt6Core.so.6.7.2 /usr/lib/x86_64-linux-gnu/libGL.so || GestionBibliotecaire_autogen GestionBibliotecaire_autogen_timestamp_deps
+build GestionBibliotecaire: CXX_EXECUTABLE_LINKER__GestionBibliotecaire_Debug CMakeFiles/GestionBibliotecaire.dir/GestionBibliotecaire_autogen/mocs_compilation.cpp.o CMakeFiles/GestionBibliotecaire.dir/main.cpp.o CMakeFiles/GestionBibliotecaire.dir/mainwindow.cpp.o CMakeFiles/GestionBibliotecaire.dir/createlecteur.cpp.o CMakeFiles/GestionBibliotecaire.dir/modifierunlecteur.cpp.o CMakeFiles/GestionBibliotecaire.dir/supprimerlecteur.cpp.o CMakeFiles/GestionBibliotecaire.dir/ajouterunlivre.cpp.o CMakeFiles/GestionBibliotecaire.dir/modifierunlivre.cpp.o CMakeFiles/GestionBibliotecaire.dir/supprimerunlivre.cpp.o CMakeFiles/GestionBibliotecaire.dir/prete.cpp.o CMakeFiles/GestionBibliotecaire.dir/modifierunpret.cpp.o CMakeFiles/GestionBibliotecaire.dir/supprimerunpret.cpp.o | /home/aina/Qt/6.7.2/gcc_64/lib/libQt6Widgets.so.6.7.2 /home/aina/Qt/6.7.2/gcc_64/lib/libQt6Gui.so.6.7.2 /home/aina/Qt/6.7.2/gcc_64/lib/libQt6Core.so.6.7.2 /usr/lib/x86_64-linux-gnu/libGL.so || GestionBibliotecaire_autogen GestionBibliotecaire_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -Wl,-rpath,/home/aina/Qt/6.7.2/gcc_64/lib:  /home/aina/Qt/6.7.2/gcc_64/lib/libQt6Widgets.so.6.7.2  /home/aina/Qt/6.7.2/gcc_64/lib/libQt6Gui.so.6.7.2  /home/aina/Qt/6.7.2/gcc_64/lib/libQt6Core.so.6.7.2  /usr/lib/x86_64-linux-gnu/libGL.so
   OBJECT_DIR = CMakeFiles/GestionBibliotecaire.dir
@@ -206,7 +238,7 @@ build GestionBibliotecaire_autogen_timestamp_deps: phony
 #############################################
 # Utility command for GestionBibliotecaire_autogen
 
-build GestionBibliotecaire_autogen: phony CMakeFiles/GestionBibliotecaire_autogen GestionBibliotecaire_autogen/include/ui_mainwindow.h GestionBibliotecaire_autogen/include/ui_createlecteur.h GestionBibliotecaire_autogen/include/ui_modifierunlecteur.h GestionBibliotecaire_autogen/include/ui_supprimerlecteur.h GestionBibliotecaire_autogen/include/ui_ajouterunlivre.h GestionBibliotecaire_autogen/include/ui_modifierunlivre.h GestionBibliotecaire_autogen/timestamp GestionBibliotecaire_autogen/mocs_compilation.cpp GestionBibliotecaire_autogen_timestamp_deps
+build GestionBibliotecaire_autogen: phony CMakeFiles/GestionBibliotecaire_autogen GestionBibliotecaire_autogen/include/ui_mainwindow.h GestionBibliotecaire_autogen/include/ui_createlecteur.h GestionBibliotecaire_autogen/include/ui_modifierunlecteur.h GestionBibliotecaire_autogen/include/ui_supprimerlecteur.h GestionBibliotecaire_autogen/include/ui_ajouterunlivre.h GestionBibliotecaire_autogen/include/ui_prete.h GestionBibliotecaire_autogen/include/ui_modifierunpret.h GestionBibliotecaire_autogen/include/ui_supprimerunpret.h GestionBibliotecaire_autogen/include/ui_modifierunlivre.h GestionBibliotecaire_autogen/include/ui_supprimerunlivre.h GestionBibliotecaire_autogen/timestamp GestionBibliotecaire_autogen/mocs_compilation.cpp GestionBibliotecaire_autogen_timestamp_deps
 
 
 #############################################
@@ -223,7 +255,7 @@ build GestionBibliotecaire_autogen/timestamp GestionBibliotecaire_autogen/mocs_c
 #############################################
 # Phony custom command for CMakeFiles/GestionBibliotecaire_autogen
 
-build CMakeFiles/GestionBibliotecaire_autogen GestionBibliotecaire_autogen/include/ui_mainwindow.h GestionBibliotecaire_autogen/include/ui_createlecteur.h GestionBibliotecaire_autogen/include/ui_modifierunlecteur.h GestionBibliotecaire_autogen/include/ui_supprimerlecteur.h GestionBibliotecaire_autogen/include/ui_ajouterunlivre.h GestionBibliotecaire_autogen/include/ui_modifierunlivre.h | ${cmake_ninja_workdir}CMakeFiles/GestionBibliotecaire_autogen ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_createlecteur.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_modifierunlecteur.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_supprimerlecteur.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_ajouterunlivre.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_modifierunlivre.h: phony GestionBibliotecaire_autogen/timestamp || GestionBibliotecaire_autogen_timestamp_deps
+build CMakeFiles/GestionBibliotecaire_autogen GestionBibliotecaire_autogen/include/ui_mainwindow.h GestionBibliotecaire_autogen/include/ui_createlecteur.h GestionBibliotecaire_autogen/include/ui_modifierunlecteur.h GestionBibliotecaire_autogen/include/ui_supprimerlecteur.h GestionBibliotecaire_autogen/include/ui_ajouterunlivre.h GestionBibliotecaire_autogen/include/ui_prete.h GestionBibliotecaire_autogen/include/ui_modifierunpret.h GestionBibliotecaire_autogen/include/ui_supprimerunpret.h GestionBibliotecaire_autogen/include/ui_modifierunlivre.h GestionBibliotecaire_autogen/include/ui_supprimerunlivre.h | ${cmake_ninja_workdir}CMakeFiles/GestionBibliotecaire_autogen ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_createlecteur.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_modifierunlecteur.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_supprimerlecteur.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_ajouterunlivre.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_prete.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_modifierunpret.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_supprimerunpret.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_modifierunlivre.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_supprimerunlivre.h: phony GestionBibliotecaire_autogen/timestamp || GestionBibliotecaire_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

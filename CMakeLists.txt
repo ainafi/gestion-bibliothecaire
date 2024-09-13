@@ -39,6 +39,22 @@ set(PROJECT_SOURCES
         modifierunlecteur.h
         modifierunlecteur.ui
 
+        supprimerunlivre.cpp
+        supprimerunlivre.h
+        supprimerlecteur.ui
+
+        #prete
+        prete.cpp
+        prete.h
+        prete.ui
+
+        modifierunpret.cpp
+        modifierunpret.h
+        modifierunpret.ui
+
+        supprimerunpret.cpp
+        supprimerunpret.h
+        supprimerunpret.ui
 
 )
 
@@ -51,6 +67,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         supprimerlecteur.h supprimerlecteur.cpp supprimerlecteur.ui
         ajouterunlivre.h ajouterunlivre.cpp ajouterunlivre.ui
         modifierunlivre.h modifierunlivre.cpp modifierunlivre.ui
+        supprimerunlivre.h supprimerunlivre.cpp supprimerunlivre.ui
+        prete.h prete.cpp prete.ui
+        modifierunpret.h modifierunpret.cpp modifierunpret.ui
+        supprimerunpret.h supprimerunpret.cpp supprimerunpret.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET GestionBibliotecaire APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
