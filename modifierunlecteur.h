@@ -2,6 +2,7 @@
 #define MODIFIERUNLECTEUR_H
 
 #include <QDialog>
+#include "createlecteur.h" // Include the header for createLecteur
 
 namespace Ui {
 class modifierUnLecteur;
@@ -15,8 +16,12 @@ public:
     explicit modifierUnLecteur(QWidget *parent = nullptr);
     ~modifierUnLecteur();
 
+private slots:
+    void on_SaveModif_clicked();
+
 private:
     Ui::modifierUnLecteur *ui;
+    createLecteur *ptrCreateLecteur; // Declare the pointer to createLecteur
 };
 
 #endif // MODIFIERUNLECTEUR_H

@@ -1,5 +1,6 @@
 /home/aina/Documents/GestionBibliotecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/EWIEGA46WW/moc_modifierunlecteur.cpp: /home/aina/Documents/GestionBibliotecaire/modifierunlecteur.h \
   /home/aina/Documents/GestionBibliotecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/moc_predefs.h \
+  /home/aina/Documents/GestionBibliotecaire/createlecteur.h \
   /home/aina/Qt/6.7.2/gcc_64/include/QtCore/q20functional.h \
   /home/aina/Qt/6.7.2/gcc_64/include/QtCore/q20memory.h \
   /home/aina/Qt/6.7.2/gcc_64/include/QtCore/q20type_traits.h \

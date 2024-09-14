@@ -1,7 +1,7 @@
 #include "ajouterunlivre.h"
 #include "ui_ajouterunlivre.h"
 #include <QDebug>
-
+#include <QMessageBox>
 #include <QSqlDatabase>
 #include <QSqlQuery>
 #include <QSqlError>
@@ -39,6 +39,7 @@ void ajouterUnLivre::on_ajouter_clicked()
 
     if (!database.open()) {
         qDebug() << "Error: connection with database failed - " << database.lastError().text();
+        QMessageBox::critical(this, "Database Connection Error", database.lastError().text());
     }else{
         qDebug() << "Connection ok";
          QSqlQuery query;
@@ -50,8 +51,10 @@ void ajouterUnLivre::on_ajouter_clicked()
         query.bindValue(":disponible",disponible);
         if (!query.exec()) {
             qDebug() << "Error: failed to insert data - " << query.lastError().text();
+            QMessageBox::critical(this, "Error", "failed to insert data");
         } else {
             qDebug() << "Data inserted successfully!";
+            QMessageBox::information(this, "Success", "ajout nouveau livre succes");
         }
     }
 }

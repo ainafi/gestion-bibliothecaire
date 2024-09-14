@@ -15,6 +15,9 @@ public:
     explicit supprimerLecteur(QWidget *parent = nullptr);
     ~supprimerLecteur();
 
+private slots:
+    void on_supprimerLecteur_2_clicked();
+
 private:
     Ui::supprimerLecteur *ui;
 };

@@ -15,11 +15,14 @@ public:
     explicit createLecteur(QWidget *parent = nullptr);
     ~createLecteur();
 
+    void setLecteurInfo(const QString &numLecteur, const QString &nomLecteur);
+
 private slots:
     void on_ajouter_clicked();
 
 private:
     Ui::createLecteur *ui;
+
 };
 
 #endif // CREATELECTEUR_H

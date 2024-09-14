@@ -46,20 +46,12 @@ void prete::on_SaisirLePrete_clicked()
 
     if (!database.open()) {
         qDebug() << "Error: connection with database failed - " << database.lastError().text();
-        QMessageBox::critical(this, "Database Connection Error", database.lastError().text());
+        // QMessageBox::critical(this, "Database Connection Error", database.lastError().text());
         return;
     }
+
 
     QSqlQuery query;
-
-    // Vérification de l'existence du lecteur
-    query.prepare("SELECT COUNT(*) FROM Lecteur WHERE numLecteur = :numLecteur");
-    query.bindValue(":numLecteur", numLecteur);
-    if (!query.exec() || !query.next() || query.value(0).toInt() == 0) {
-        QMessageBox::warning(this, "Error", "Numero de Lecteur inexistant");
-        return;
-    }
-
     // Vérification de l'existence et de la disponibilité du livre
     query.prepare("SELECT COUNT(*) FROM Livre WHERE numLivre = :numLivre AND disponible = '1'");
     query.bindValue(":numLivre", numLivre);
@@ -98,4 +90,5 @@ void prete::on_SaisirLePrete_clicked()
     }
 
     QMessageBox::information(this, "Success", "Loan recorded and book availability updated");
+
 }
