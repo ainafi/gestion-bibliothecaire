@@ -15,6 +15,9 @@ public:
     explicit prete(QWidget *parent = nullptr);
     ~prete();
 
+private slots:
+    void on_SaisirLePrete_clicked();
+
 private:
     Ui::prete *ui;
 };

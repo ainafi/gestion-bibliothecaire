@@ -15,6 +15,9 @@ public:
     explicit ajouterUnLivre(QWidget *parent = nullptr);
     ~ajouterUnLivre();
 
+private slots:
+    void on_ajouter_clicked();
+
 private:
     Ui::ajouterUnLivre *ui;
 };
