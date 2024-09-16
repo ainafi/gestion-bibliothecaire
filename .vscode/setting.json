@@ -1,0 +1,7 @@
+{
+    "cmake.generator": "Unix Makefiles",
+    "cmake.configureArgs": [
+        "-DCMAKE_EXPORT_COMPILE_COMMANDS=1"
+    ],
+    "cmake.buildDirectory": "${workspaceFolder}/build"
+}

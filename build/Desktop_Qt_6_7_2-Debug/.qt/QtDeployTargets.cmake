@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_GestionBibliotecaire_FILE /home/aina/Documents/GestionBibliotecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire)
-set(__QT_DEPLOY_TARGET_GestionBibliotecaire_TYPE EXECUTABLE)

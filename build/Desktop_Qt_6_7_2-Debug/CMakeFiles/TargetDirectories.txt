@@ -1,5 +1,0 @@
-/home/aina/Documents/GestionBibliotecaire/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/GestionBibliotecaire.dir
-/home/aina/Documents/GestionBibliotecaire/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/edit_cache.dir
-/home/aina/Documents/GestionBibliotecaire/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/rebuild_cache.dir
-/home/aina/Documents/GestionBibliotecaire/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/GestionBibliotecaire_autogen_timestamp_deps.dir
-/home/aina/Documents/GestionBibliotecaire/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/GestionBibliotecaire_autogen.dir
