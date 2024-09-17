@@ -1,5 +1,6 @@
 /home/ainafinaritra/Documents/gestion-bibliothecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/EWIEGA46WW/moc_modifierunlivre.cpp: /home/ainafinaritra/Documents/gestion-bibliothecaire/modifierunlivre.h \
   /home/ainafinaritra/Documents/gestion-bibliothecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/moc_predefs.h \
+  /home/ainafinaritra/Documents/gestion-bibliothecaire/ajouterunlivre.h \
   /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtCore/q20functional.h \
   /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtCore/q20memory.h \
   /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtCore/q20type_traits.h \

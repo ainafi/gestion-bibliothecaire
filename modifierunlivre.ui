@@ -44,7 +44,7 @@ font-size:15px;
     <string>Numero Livre</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit">
+  <widget class="QLineEdit" name="numLivre">
    <property name="geometry">
     <rect>
      <x>150</x>
@@ -54,7 +54,7 @@ font-size:15px;
     </rect>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="recherche">
    <property name="geometry">
     <rect>
      <x>170</x>
@@ -74,7 +74,7 @@ font-weight:bold;
     <string>Rechercher</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="annuler">
    <property name="geometry">
     <rect>
      <x>340</x>

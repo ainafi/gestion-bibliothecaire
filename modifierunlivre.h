@@ -2,6 +2,7 @@
 #define MODIFIERUNLIVRE_H
 
 #include <QDialog>
+#include "ajouterunlivre.h" // Include this header
 
 namespace Ui {
 class modifierUnLivre;
@@ -15,8 +16,12 @@ public:
     explicit modifierUnLivre(QWidget *parent = nullptr);
     ~modifierUnLivre();
 
+private slots:
+    void on_recherche_clicked();
+
 private:
     Ui::modifierUnLivre *ui;
+    ajouterUnLivre *ptrAjouterUnLivre; // Use correct class name
 };
 
 #endif // MODIFIERUNLIVRE_H

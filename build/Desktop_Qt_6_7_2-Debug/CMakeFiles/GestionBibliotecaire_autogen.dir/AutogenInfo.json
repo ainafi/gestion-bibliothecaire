@@ -11,7 +11,7 @@
 		"/home/ainafinaritra/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake",
 		"/home/ainafinaritra/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeSystem.cmake.in",
 		"/home/ainafinaritra/Documents/gestion-bibliothecaire/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake",
-		"/home/ainafinaritra/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeUnixFindMake.cmake",
+		"/home/ainafinaritra/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeNinjaFindMake.cmake",
 		"/home/ainafinaritra/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/home/ainafinaritra/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake",
 		"/home/ainafinaritra/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake",

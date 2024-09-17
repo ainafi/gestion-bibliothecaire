@@ -14,6 +14,7 @@ class ajouterUnLivre : public QDialog
 public:
     explicit ajouterUnLivre(QWidget *parent = nullptr);
     ~ajouterUnLivre();
+    void setLivreInfo(const QString &numLivre, const QString &design, const QString &auteur, const QDate &dateEdition, const bool &disponible);
 
 private slots:
     void on_ajouter_clicked();
