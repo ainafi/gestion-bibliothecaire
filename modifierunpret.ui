@@ -7,11 +7,11 @@
     <x>0</x>
     <y>0</y>
     <width>753</width>
-    <height>186</height>
+    <height>250</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Modifier un Prêt</string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Numero du Prete</string>
+    <string>Numero du Prêt</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="numeroDuPrete">
@@ -36,11 +36,103 @@
     </rect>
    </property>
   </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>231</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Numero du Lecteur</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="numeroLecteur">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>60</y>
+     <width>511</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>231</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Numero du Livre</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="numeroLivre">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>90</y>
+     <width>511</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>231</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Date de Prêt</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="datePret">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>120</y>
+     <width>511</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>231</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Date de Retour</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateRetour">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>150</y>
+     <width>511</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
   <widget class="QPushButton" name="Recherche">
    <property name="geometry">
     <rect>
      <x>230</x>
-     <y>70</y>
+     <y>190</y>
      <width>141</width>
      <height>51</height>
     </rect>
@@ -56,11 +148,31 @@ color:white;
     <string>Rechercher</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="annuler">
+  <widget class="QPushButton" name="Modifier">
    <property name="geometry">
     <rect>
      <x>410</x>
-     <y>70</y>
+     <y>190</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background:green;
+font-weight:bold;
+color:white;
+}</string>
+   </property>
+   <property name="text">
+    <string>Modifier</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="annuler">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>190</y>
      <width>141</width>
      <height>51</height>
     </rect>
