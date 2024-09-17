@@ -209,7 +209,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-std=gnu++17"
+					"fragment" : "-g -std=gnu++17"
 				},
 				{
 					"backtrace" : 29,
@@ -225,10 +225,6 @@
 				{
 					"backtrace" : 5,
 					"define" : "QT_GUI_LIB"
-				},
-				{
-					"backtrace" : 29,
-					"define" : "QT_NO_DEBUG"
 				},
 				{
 					"backtrace" : 5,
@@ -318,6 +314,10 @@
 	{
 		"commandFragments" : 
 		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
 			{
 				"fragment" : "",
 				"role" : "flags"

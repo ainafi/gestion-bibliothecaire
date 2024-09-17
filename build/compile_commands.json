@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/home/ainafinaritra/Documents/gestion-bibliothecaire/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/GestionBibliotecaire.dir/GestionBibliotecaire_autogen/mocs_compilation.cpp.o -c /home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/mocs_compilation.cpp",
+  "file": "/home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/GestionBibliotecaire.dir/GestionBibliotecaire_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/ainafinaritra/Documents/gestion-bibliothecaire/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/GestionBibliotecaire.dir/main.cpp.o -c /home/ainafinaritra/Documents/gestion-bibliothecaire/main.cpp",
+  "file": "/home/ainafinaritra/Documents/gestion-bibliothecaire/main.cpp",
+  "output": "CMakeFiles/GestionBibliotecaire.dir/main.cpp.o"
+},
+{
+  "directory": "/home/ainafinaritra/Documents/gestion-bibliothecaire/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/GestionBibliotecaire.dir/mainwindow.cpp.o -c /home/ainafinaritra/Documents/gestion-bibliothecaire/mainwindow.cpp",
+  "file": "/home/ainafinaritra/Documents/gestion-bibliothecaire/mainwindow.cpp",
+  "output": "CMakeFiles/GestionBibliotecaire.dir/mainwindow.cpp.o"
+},
+{
+  "directory": "/home/ainafinaritra/Documents/gestion-bibliothecaire/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/GestionBibliotecaire.dir/createlecteur.cpp.o -c /home/ainafinaritra/Documents/gestion-bibliothecaire/createlecteur.cpp",
+  "file": "/home/ainafinaritra/Documents/gestion-bibliothecaire/createlecteur.cpp",
+  "output": "CMakeFiles/GestionBibliotecaire.dir/createlecteur.cpp.o"
+},
+{
+  "directory": "/home/ainafinaritra/Documents/gestion-bibliothecaire/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/GestionBibliotecaire.dir/modifierunlecteur.cpp.o -c /home/ainafinaritra/Documents/gestion-bibliothecaire/modifierunlecteur.cpp",
+  "file": "/home/ainafinaritra/Documents/gestion-bibliothecaire/modifierunlecteur.cpp",
+  "output": "CMakeFiles/GestionBibliotecaire.dir/modifierunlecteur.cpp.o"
+},
+{
+  "directory": "/home/ainafinaritra/Documents/gestion-bibliothecaire/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/GestionBibliotecaire.dir/supprimerlecteur.cpp.o -c /home/ainafinaritra/Documents/gestion-bibliothecaire/supprimerlecteur.cpp",
+  "file": "/home/ainafinaritra/Documents/gestion-bibliothecaire/supprimerlecteur.cpp",
+  "output": "CMakeFiles/GestionBibliotecaire.dir/supprimerlecteur.cpp.o"
+},
+{
+  "directory": "/home/ainafinaritra/Documents/gestion-bibliothecaire/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/GestionBibliotecaire.dir/ajouterunlivre.cpp.o -c /home/ainafinaritra/Documents/gestion-bibliothecaire/ajouterunlivre.cpp",
+  "file": "/home/ainafinaritra/Documents/gestion-bibliothecaire/ajouterunlivre.cpp",
+  "output": "CMakeFiles/GestionBibliotecaire.dir/ajouterunlivre.cpp.o"
+},
+{
+  "directory": "/home/ainafinaritra/Documents/gestion-bibliothecaire/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/GestionBibliotecaire.dir/modifierunlivre.cpp.o -c /home/ainafinaritra/Documents/gestion-bibliothecaire/modifierunlivre.cpp",
+  "file": "/home/ainafinaritra/Documents/gestion-bibliothecaire/modifierunlivre.cpp",
+  "output": "CMakeFiles/GestionBibliotecaire.dir/modifierunlivre.cpp.o"
+},
+{
+  "directory": "/home/ainafinaritra/Documents/gestion-bibliothecaire/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/GestionBibliotecaire.dir/supprimerunlivre.cpp.o -c /home/ainafinaritra/Documents/gestion-bibliothecaire/supprimerunlivre.cpp",
+  "file": "/home/ainafinaritra/Documents/gestion-bibliothecaire/supprimerunlivre.cpp",
+  "output": "CMakeFiles/GestionBibliotecaire.dir/supprimerunlivre.cpp.o"
+},
+{
+  "directory": "/home/ainafinaritra/Documents/gestion-bibliothecaire/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/GestionBibliotecaire.dir/prete.cpp.o -c /home/ainafinaritra/Documents/gestion-bibliothecaire/prete.cpp",
+  "file": "/home/ainafinaritra/Documents/gestion-bibliothecaire/prete.cpp",
+  "output": "CMakeFiles/GestionBibliotecaire.dir/prete.cpp.o"
+},
+{
+  "directory": "/home/ainafinaritra/Documents/gestion-bibliothecaire/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/GestionBibliotecaire.dir/modifierunpret.cpp.o -c /home/ainafinaritra/Documents/gestion-bibliothecaire/modifierunpret.cpp",
+  "file": "/home/ainafinaritra/Documents/gestion-bibliothecaire/modifierunpret.cpp",
+  "output": "CMakeFiles/GestionBibliotecaire.dir/modifierunpret.cpp.o"
+},
+{
+  "directory": "/home/ainafinaritra/Documents/gestion-bibliothecaire/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/GestionBibliotecaire.dir/supprimerunpret.cpp.o -c /home/ainafinaritra/Documents/gestion-bibliothecaire/supprimerunpret.cpp",
+  "file": "/home/ainafinaritra/Documents/gestion-bibliothecaire/supprimerunpret.cpp",
+  "output": "CMakeFiles/GestionBibliotecaire.dir/supprimerunpret.cpp.o"
+}
+]
