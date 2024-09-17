@@ -31,10 +31,27 @@ void supprimerLecteur::on_supprimerLecteur_2_clicked()
         database.setPassword("password");
     }
 
+
     if (!database.open()) {
         qDebug() << "Error: connection with database failed - " << database.lastError().text();
         // QMessageBox::critical(this, "Database Connection Error", database.lastError().text());
         return;
     }
+    QSqlQuery query;
+    // Vérification de l'existence et de la disponibilité du livre
+    query.prepare("SELECT COUNT(*) FROM Lecteur WHERE numLecteur = :numLecteur");
+    query.bindValue(":numLecteur", numLecteur);
+    if (!query.exec()) {
+        qDebug() << "Livre check error:" << query.lastError().text();
+        QMessageBox::critical(this, "Error", "Erreur lors de la suppresion du lecteur");
+        return;
+    }
+    if (!query.next() || query.value(0).toInt() == 0) {
+        QMessageBox::warning(this, "Error", "Numero de Lecteur inexistant ou indisponible");
+        return;
+    }
+
+    QMessageBox::information(this, "Success", "Lecteur supprimer avec success");
+
 }
 
