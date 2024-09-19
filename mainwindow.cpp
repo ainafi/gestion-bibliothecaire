@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include "listlecteur.h"
 #include "createlecteur.h"
 #include "modifierunlecteur.h"
 #include "supprimerlecteur.h"
@@ -7,6 +8,7 @@
 #include "modifierunlivre.h"
 #include "supprimerunlivre.h"
 #include "prete.h"
+#include "listpret.h"
 #include "modifierunpret.h"
 #include "supprimerunpret.h"
 MainWindow::MainWindow(QWidget *parent)
@@ -16,11 +18,13 @@ MainWindow::MainWindow(QWidget *parent)
     , ptrCreateLecteur(nullptr)
     , ptrModifierLecteur(nullptr)
     , ptrSupprimerLecteur(nullptr)
+    , ptrListLecteur(nullptr)
     //livre
     , ptrAjouterUnLivre(nullptr)
     , ptrModifierUnLivre(nullptr)
     , ptrSupprimerUnLivre(nullptr)
     //prete
+    ,ptrListPret(nullptr)
     , ptrPrete(nullptr)
     , ptrModifierUnPret(nullptr)
     ,ptrSupprimerUnPret(nullptr)
@@ -34,6 +38,7 @@ MainWindow::~MainWindow()
     delete ptrCreateLecteur;
     delete ptrModifierLecteur;
     delete ptrSupprimerLecteur;
+    delete ptrListLecteur;
 
     //livre
     delete ptrAjouterUnLivre;
@@ -44,6 +49,7 @@ MainWindow::~MainWindow()
     delete ptrPrete;
     delete ptrModifierUnPret;
     delete ptrSupprimerUnPret;
+    delete ptrListPret;
 }
 
 //lecteur
@@ -120,4 +126,23 @@ void MainWindow::on_SupprPret_clicked()
     }
     ptrSupprimerUnPret->show();
 }
+
+
+void MainWindow::on_pushButton_clicked()
+{
+    if(!ptrListLecteur){
+        ptrListLecteur=new listLecteur();
+    }
+    ptrListLecteur->show();
+}
+
+
+void MainWindow::on_ListPret_clicked()
+{
+    if(!ptrListPret){
+        ptrListPret=new listPret();
+    }
+    ptrListPret->show();
+}
+
 

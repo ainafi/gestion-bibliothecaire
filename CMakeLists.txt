@@ -60,6 +60,8 @@ set(PROJECT_SOURCES
 qt_add_executable(GestionBibliotecaire
     MANUAL_FINALIZATION
     ${PROJECT_SOURCES}
+    listlecteur.h listlecteur.cpp listlecteur.ui
+    listpret.h listpret.cpp listpret.ui
 )
 
 target_link_libraries(GestionBibliotecaire PRIVATE Qt6::Widgets Qt6::Sql)

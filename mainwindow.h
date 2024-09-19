@@ -13,7 +13,7 @@ QT_END_NAMESPACE
 class createLecteur;
 class modifierUnLecteur;
 class supprimerLecteur;
-
+class listLecteur;
 //livre
 
 class ajouterUnLivre;
@@ -21,6 +21,7 @@ class modifierUnLivre;
 class supprimerUnLivre;
 
 //prete
+class listPret;
 class prete;
 class modifierUnPret;
 class supprimerUnPret;
@@ -53,11 +54,16 @@ private slots:
 
     void on_SupprPret_clicked();
 
+    void on_pushButton_clicked();
+
+    void on_ListPret_clicked();
+
 private:
     Ui::MainWindow *ui;
     createLecteur *ptrCreateLecteur;
     modifierUnLecteur *ptrModifierLecteur;
     supprimerLecteur *ptrSupprimerLecteur;
+    listLecteur *ptrListLecteur;
 
     ajouterUnLivre *ptrAjouterUnLivre;
     modifierUnLivre *ptrModifierUnLivre;
@@ -67,5 +73,6 @@ private:
     prete *ptrPrete;
     modifierUnPret *ptrModifierUnPret;
     supprimerUnPret *ptrSupprimerUnPret;
+    listPret *ptrListPret;
 };
 #endif // MAINWINDOW_H
