@@ -365,7 +365,8 @@
 		"/home/ainafinaritra/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"/home/ainafinaritra/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets.cmake",
 		"/home/ainafinaritra/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-relwithdebinfo.cmake",
-		"/home/ainafinaritra/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake"
+		"/home/ainafinaritra/Qt/6.7.2/gcc_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake",
+		"/home/ainafinaritra/Documents/gestion-bibliothecaire/img.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/ainafinaritra/Documents/gestion-bibliothecaire",
 	"CROSS_CONFIG" : false,
@@ -425,6 +426,12 @@
 			"/home/ainafinaritra/Documents/gestion-bibliothecaire/prete.h",
 			"MU",
 			"EWIEGA46WW/moc_prete.cpp",
+			null
+		],
+		[
+			"/home/ainafinaritra/Documents/gestion-bibliothecaire/situationlivre.h",
+			"MU",
+			"EWIEGA46WW/moc_situationlivre.cpp",
 			null
 		],
 		[
@@ -553,6 +560,11 @@
 		],
 		[
 			"/home/ainafinaritra/Documents/gestion-bibliothecaire/prete.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/ainafinaritra/Documents/gestion-bibliothecaire/situationlivre.cpp",
 			"MU",
 			null
 		],

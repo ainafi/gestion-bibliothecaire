@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "/home/ainafinaritra/Documents/gestion-bibliothecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ainafinaritra/Documents/gestion-bibliothecaire/build/Desktop_Qt_6_7_2-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ainafinaritra/Documents/gestion-bibliothecaire/build/Desktop_Qt_6_7_2-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ainafinaritra/Documents/gestion-bibliothecaire",
+	"CMAKE_SOURCE_DIR" : "/home/ainafinaritra/Documents/gestion-bibliothecaire",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/ainafinaritra/Documents/gestion-bibliothecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/ainafinaritra/Documents/gestion-bibliothecaire/Frame 1.png",
+		"/home/ainafinaritra/Documents/gestion-bibliothecaire/2301.i121.022.F.m005.c9.isometric library horizontal banner.jpg"
+	],
+	"LOCK_FILE" : "/home/ainafinaritra/Documents/gestion-bibliothecaire/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/GestionBibliotecaire_autogen.dir/AutoRcc_img_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "img" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_img.cpp",
+	"RCC_EXECUTABLE" : "/home/ainafinaritra/Qt/6.7.2/gcc_64/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/ainafinaritra/Documents/gestion-bibliothecaire/build/Desktop_Qt_6_7_2-Debug/CMakeFiles/GestionBibliotecaire_autogen.dir/AutoRcc_img_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/ainafinaritra/Documents/gestion-bibliothecaire/img.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}
