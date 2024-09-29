@@ -81,6 +81,30 @@ build CMakeFiles/GestionBibliotecaire.dir/createlecteur.cpp.o: CXX_COMPILER__Ges
   OBJECT_DIR = CMakeFiles/GestionBibliotecaire.dir
   OBJECT_FILE_DIR = CMakeFiles/GestionBibliotecaire.dir
 
+build CMakeFiles/GestionBibliotecaire.dir/situationlivre.cpp.o: CXX_COMPILER__GestionBibliotecaire_unscanned_Debug /home/ainafinaritra/Documents/gestion-bibliothecaire/situationlivre.cpp || cmake_object_order_depends_target_GestionBibliotecaire
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GestionBibliotecaire.dir/situationlivre.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/include -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtWidgets -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtGui -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtSql
+  OBJECT_DIR = CMakeFiles/GestionBibliotecaire.dir
+  OBJECT_FILE_DIR = CMakeFiles/GestionBibliotecaire.dir
+
+build CMakeFiles/GestionBibliotecaire.dir/listlecteur.cpp.o: CXX_COMPILER__GestionBibliotecaire_unscanned_Debug /home/ainafinaritra/Documents/gestion-bibliothecaire/listlecteur.cpp || cmake_object_order_depends_target_GestionBibliotecaire
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GestionBibliotecaire.dir/listlecteur.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/include -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtWidgets -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtGui -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtSql
+  OBJECT_DIR = CMakeFiles/GestionBibliotecaire.dir
+  OBJECT_FILE_DIR = CMakeFiles/GestionBibliotecaire.dir
+
+build CMakeFiles/GestionBibliotecaire.dir/listpret.cpp.o: CXX_COMPILER__GestionBibliotecaire_unscanned_Debug /home/ainafinaritra/Documents/gestion-bibliothecaire/listpret.cpp || cmake_object_order_depends_target_GestionBibliotecaire
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/GestionBibliotecaire.dir/listpret.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/include -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtWidgets -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtGui -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtSql
+  OBJECT_DIR = CMakeFiles/GestionBibliotecaire.dir
+  OBJECT_FILE_DIR = CMakeFiles/GestionBibliotecaire.dir
+
 build CMakeFiles/GestionBibliotecaire.dir/modifierunlecteur.cpp.o: CXX_COMPILER__GestionBibliotecaire_unscanned_Debug /home/ainafinaritra/Documents/gestion-bibliothecaire/modifierunlecteur.cpp || cmake_object_order_depends_target_GestionBibliotecaire
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/GestionBibliotecaire.dir/modifierunlecteur.cpp.o.d
@@ -145,30 +169,6 @@ build CMakeFiles/GestionBibliotecaire.dir/supprimerunpret.cpp.o: CXX_COMPILER__G
   OBJECT_DIR = CMakeFiles/GestionBibliotecaire.dir
   OBJECT_FILE_DIR = CMakeFiles/GestionBibliotecaire.dir
 
-build CMakeFiles/GestionBibliotecaire.dir/listlecteur.cpp.o: CXX_COMPILER__GestionBibliotecaire_unscanned_Debug /home/ainafinaritra/Documents/gestion-bibliothecaire/listlecteur.cpp || cmake_object_order_depends_target_GestionBibliotecaire
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/GestionBibliotecaire.dir/listlecteur.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/include -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtWidgets -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtGui -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtSql
-  OBJECT_DIR = CMakeFiles/GestionBibliotecaire.dir
-  OBJECT_FILE_DIR = CMakeFiles/GestionBibliotecaire.dir
-
-build CMakeFiles/GestionBibliotecaire.dir/listpret.cpp.o: CXX_COMPILER__GestionBibliotecaire_unscanned_Debug /home/ainafinaritra/Documents/gestion-bibliothecaire/listpret.cpp || cmake_object_order_depends_target_GestionBibliotecaire
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/GestionBibliotecaire.dir/listpret.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/include -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtWidgets -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtGui -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtSql
-  OBJECT_DIR = CMakeFiles/GestionBibliotecaire.dir
-  OBJECT_FILE_DIR = CMakeFiles/GestionBibliotecaire.dir
-
-build CMakeFiles/GestionBibliotecaire.dir/situationlivre.cpp.o: CXX_COMPILER__GestionBibliotecaire_unscanned_Debug /home/ainafinaritra/Documents/gestion-bibliothecaire/situationlivre.cpp || cmake_object_order_depends_target_GestionBibliotecaire
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/GestionBibliotecaire.dir/situationlivre.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/ainafinaritra/Documents/gestion-bibliothecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/include -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtCore -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/mkspecs/linux-g++ -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtWidgets -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtGui -isystem /home/ainafinaritra/Qt/6.7.2/gcc_64/include/QtSql
-  OBJECT_DIR = CMakeFiles/GestionBibliotecaire.dir
-  OBJECT_FILE_DIR = CMakeFiles/GestionBibliotecaire.dir
-
 build CMakeFiles/GestionBibliotecaire.dir/GestionBibliotecaire_autogen/EWIEGA46WW/qrc_img.cpp.o: CXX_COMPILER__GestionBibliotecaire_unscanned_Debug /home/ainafinaritra/Documents/gestion-bibliothecaire/build/Desktop_Qt_6_7_2-Debug/GestionBibliotecaire_autogen/EWIEGA46WW/qrc_img.cpp || cmake_object_order_depends_target_GestionBibliotecaire
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/GestionBibliotecaire.dir/GestionBibliotecaire_autogen/EWIEGA46WW/qrc_img.cpp.o.d
@@ -185,7 +185,7 @@ build CMakeFiles/GestionBibliotecaire.dir/GestionBibliotecaire_autogen/EWIEGA46W
 #############################################
 # Link the executable GestionBibliotecaire
 
-build GestionBibliotecaire: CXX_EXECUTABLE_LINKER__GestionBibliotecaire_Debug CMakeFiles/GestionBibliotecaire.dir/GestionBibliotecaire_autogen/mocs_compilation.cpp.o CMakeFiles/GestionBibliotecaire.dir/main.cpp.o CMakeFiles/GestionBibliotecaire.dir/mainwindow.cpp.o CMakeFiles/GestionBibliotecaire.dir/createlecteur.cpp.o CMakeFiles/GestionBibliotecaire.dir/modifierunlecteur.cpp.o CMakeFiles/GestionBibliotecaire.dir/supprimerlecteur.cpp.o CMakeFiles/GestionBibliotecaire.dir/ajouterunlivre.cpp.o CMakeFiles/GestionBibliotecaire.dir/modifierunlivre.cpp.o CMakeFiles/GestionBibliotecaire.dir/supprimerunlivre.cpp.o CMakeFiles/GestionBibliotecaire.dir/prete.cpp.o CMakeFiles/GestionBibliotecaire.dir/modifierunpret.cpp.o CMakeFiles/GestionBibliotecaire.dir/supprimerunpret.cpp.o CMakeFiles/GestionBibliotecaire.dir/listlecteur.cpp.o CMakeFiles/GestionBibliotecaire.dir/listpret.cpp.o CMakeFiles/GestionBibliotecaire.dir/situationlivre.cpp.o CMakeFiles/GestionBibliotecaire.dir/GestionBibliotecaire_autogen/EWIEGA46WW/qrc_img.cpp.o | /home/ainafinaritra/Qt/6.7.2/gcc_64/lib/libQt6Widgets.so.6.7.2 /home/ainafinaritra/Qt/6.7.2/gcc_64/lib/libQt6Sql.so.6.7.2 /home/ainafinaritra/Qt/6.7.2/gcc_64/lib/libQt6Gui.so.6.7.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/ainafinaritra/Qt/6.7.2/gcc_64/lib/libQt6Core.so.6.7.2 || GestionBibliotecaire_autogen GestionBibliotecaire_autogen_timestamp_deps
+build GestionBibliotecaire: CXX_EXECUTABLE_LINKER__GestionBibliotecaire_Debug CMakeFiles/GestionBibliotecaire.dir/GestionBibliotecaire_autogen/mocs_compilation.cpp.o CMakeFiles/GestionBibliotecaire.dir/main.cpp.o CMakeFiles/GestionBibliotecaire.dir/mainwindow.cpp.o CMakeFiles/GestionBibliotecaire.dir/createlecteur.cpp.o CMakeFiles/GestionBibliotecaire.dir/situationlivre.cpp.o CMakeFiles/GestionBibliotecaire.dir/listlecteur.cpp.o CMakeFiles/GestionBibliotecaire.dir/listpret.cpp.o CMakeFiles/GestionBibliotecaire.dir/modifierunlecteur.cpp.o CMakeFiles/GestionBibliotecaire.dir/supprimerlecteur.cpp.o CMakeFiles/GestionBibliotecaire.dir/ajouterunlivre.cpp.o CMakeFiles/GestionBibliotecaire.dir/modifierunlivre.cpp.o CMakeFiles/GestionBibliotecaire.dir/supprimerunlivre.cpp.o CMakeFiles/GestionBibliotecaire.dir/prete.cpp.o CMakeFiles/GestionBibliotecaire.dir/modifierunpret.cpp.o CMakeFiles/GestionBibliotecaire.dir/supprimerunpret.cpp.o CMakeFiles/GestionBibliotecaire.dir/GestionBibliotecaire_autogen/EWIEGA46WW/qrc_img.cpp.o | /home/ainafinaritra/Qt/6.7.2/gcc_64/lib/libQt6Widgets.so.6.7.2 /home/ainafinaritra/Qt/6.7.2/gcc_64/lib/libQt6Sql.so.6.7.2 /home/ainafinaritra/Qt/6.7.2/gcc_64/lib/libQt6Gui.so.6.7.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/ainafinaritra/Qt/6.7.2/gcc_64/lib/libQt6Core.so.6.7.2 || GestionBibliotecaire_autogen GestionBibliotecaire_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -Wl,-rpath,/home/ainafinaritra/Qt/6.7.2/gcc_64/lib  /home/ainafinaritra/Qt/6.7.2/gcc_64/lib/libQt6Widgets.so.6.7.2  /home/ainafinaritra/Qt/6.7.2/gcc_64/lib/libQt6Sql.so.6.7.2  /home/ainafinaritra/Qt/6.7.2/gcc_64/lib/libQt6Gui.so.6.7.2  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so  /home/ainafinaritra/Qt/6.7.2/gcc_64/lib/libQt6Core.so.6.7.2
   OBJECT_DIR = CMakeFiles/GestionBibliotecaire.dir
@@ -228,7 +228,7 @@ build GestionBibliotecaire_autogen_timestamp_deps: phony
 #############################################
 # Utility command for GestionBibliotecaire_autogen
 
-build GestionBibliotecaire_autogen: phony CMakeFiles/GestionBibliotecaire_autogen GestionBibliotecaire_autogen/include/ui_mainwindow.h GestionBibliotecaire_autogen/include/ui_createlecteur.h GestionBibliotecaire_autogen/include/ui_modifierunlecteur.h GestionBibliotecaire_autogen/include/ui_supprimerlecteur.h GestionBibliotecaire_autogen/include/ui_ajouterunlivre.h GestionBibliotecaire_autogen/include/ui_modifierunlivre.h GestionBibliotecaire_autogen/include/ui_supprimerunlivre.h GestionBibliotecaire_autogen/include/ui_prete.h GestionBibliotecaire_autogen/include/ui_modifierunpret.h GestionBibliotecaire_autogen/include/ui_supprimerunpret.h GestionBibliotecaire_autogen/include/ui_listlecteur.h GestionBibliotecaire_autogen/include/ui_listpret.h GestionBibliotecaire_autogen/include/ui_situationlivre.h GestionBibliotecaire_autogen/timestamp GestionBibliotecaire_autogen/mocs_compilation.cpp GestionBibliotecaire_autogen_timestamp_deps
+build GestionBibliotecaire_autogen: phony CMakeFiles/GestionBibliotecaire_autogen GestionBibliotecaire_autogen/include/ui_mainwindow.h GestionBibliotecaire_autogen/include/ui_createlecteur.h GestionBibliotecaire_autogen/include/ui_situationlivre.h GestionBibliotecaire_autogen/include/ui_listlecteur.h GestionBibliotecaire_autogen/include/ui_listpret.h GestionBibliotecaire_autogen/include/ui_modifierunlecteur.h GestionBibliotecaire_autogen/include/ui_supprimerlecteur.h GestionBibliotecaire_autogen/include/ui_ajouterunlivre.h GestionBibliotecaire_autogen/include/ui_modifierunlivre.h GestionBibliotecaire_autogen/include/ui_supprimerunlivre.h GestionBibliotecaire_autogen/include/ui_prete.h GestionBibliotecaire_autogen/include/ui_modifierunpret.h GestionBibliotecaire_autogen/include/ui_supprimerunpret.h GestionBibliotecaire_autogen/timestamp GestionBibliotecaire_autogen/mocs_compilation.cpp GestionBibliotecaire_autogen_timestamp_deps
 
 
 #############################################
@@ -254,7 +254,7 @@ build GestionBibliotecaire_autogen/EWIEGA46WW/qrc_img.cpp | ${cmake_ninja_workdi
 #############################################
 # Phony custom command for CMakeFiles/GestionBibliotecaire_autogen
 
-build CMakeFiles/GestionBibliotecaire_autogen GestionBibliotecaire_autogen/include/ui_mainwindow.h GestionBibliotecaire_autogen/include/ui_createlecteur.h GestionBibliotecaire_autogen/include/ui_modifierunlecteur.h GestionBibliotecaire_autogen/include/ui_supprimerlecteur.h GestionBibliotecaire_autogen/include/ui_ajouterunlivre.h GestionBibliotecaire_autogen/include/ui_modifierunlivre.h GestionBibliotecaire_autogen/include/ui_supprimerunlivre.h GestionBibliotecaire_autogen/include/ui_prete.h GestionBibliotecaire_autogen/include/ui_modifierunpret.h GestionBibliotecaire_autogen/include/ui_supprimerunpret.h GestionBibliotecaire_autogen/include/ui_listlecteur.h GestionBibliotecaire_autogen/include/ui_listpret.h GestionBibliotecaire_autogen/include/ui_situationlivre.h | ${cmake_ninja_workdir}CMakeFiles/GestionBibliotecaire_autogen ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_createlecteur.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_modifierunlecteur.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_supprimerlecteur.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_ajouterunlivre.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_modifierunlivre.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_supprimerunlivre.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_prete.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_modifierunpret.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_supprimerunpret.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_listlecteur.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_listpret.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_situationlivre.h: phony GestionBibliotecaire_autogen/timestamp || GestionBibliotecaire_autogen_timestamp_deps
+build CMakeFiles/GestionBibliotecaire_autogen GestionBibliotecaire_autogen/include/ui_mainwindow.h GestionBibliotecaire_autogen/include/ui_createlecteur.h GestionBibliotecaire_autogen/include/ui_situationlivre.h GestionBibliotecaire_autogen/include/ui_listlecteur.h GestionBibliotecaire_autogen/include/ui_listpret.h GestionBibliotecaire_autogen/include/ui_modifierunlecteur.h GestionBibliotecaire_autogen/include/ui_supprimerlecteur.h GestionBibliotecaire_autogen/include/ui_ajouterunlivre.h GestionBibliotecaire_autogen/include/ui_modifierunlivre.h GestionBibliotecaire_autogen/include/ui_supprimerunlivre.h GestionBibliotecaire_autogen/include/ui_prete.h GestionBibliotecaire_autogen/include/ui_modifierunpret.h GestionBibliotecaire_autogen/include/ui_supprimerunpret.h | ${cmake_ninja_workdir}CMakeFiles/GestionBibliotecaire_autogen ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_createlecteur.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_situationlivre.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_listlecteur.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_listpret.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_modifierunlecteur.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_supprimerlecteur.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_ajouterunlivre.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_modifierunlivre.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_supprimerunlivre.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_prete.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_modifierunpret.h ${cmake_ninja_workdir}GestionBibliotecaire_autogen/include/ui_supprimerunpret.h: phony GestionBibliotecaire_autogen/timestamp || GestionBibliotecaire_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

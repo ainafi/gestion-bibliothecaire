@@ -46,12 +46,11 @@ void prete::on_SaisirLePrete_clicked()
 
     if (!database.open()) {
         qDebug() << "Error: connection with database failed - " << database.lastError().text();
-        // QMessageBox::critical(this, "Database Connection Error", database.lastError().text());
         return;
     }
 
-
     QSqlQuery query;
+
     // Vérification de l'existence et de la disponibilité du livre
     query.prepare("SELECT COUNT(*) FROM Livre WHERE numLivre = :numLivre AND disponible = '1'");
     query.bindValue(":numLivre", numLivre);
@@ -62,6 +61,20 @@ void prete::on_SaisirLePrete_clicked()
     }
     if (!query.next() || query.value(0).toInt() == 0) {
         QMessageBox::warning(this, "Error", "Numero de Livre inexistant ou indisponible");
+        return;
+    }
+
+    // Vérification du nombre de prêts pour le même lecteur et la même date
+    query.prepare("SELECT COUNT(*) FROM Pret WHERE numLecteur = :numLecteur AND datePret = :datePret");
+    query.bindValue(":numLecteur", numLecteur);
+    query.bindValue(":datePret", datePret);
+    if (!query.exec()) {
+        qDebug() << "Loan count check error:" << query.lastError().text();
+        QMessageBox::critical(this, "Error", "Erreur lors de la vérification des prêts");
+        return;
+    }
+    if (query.next() && query.value(0).toInt() >= 3) {
+        QMessageBox::warning(this, "Error", "Un lecteur ne peut pas prêter plus de 3 livres à la même date.");
         return;
     }
 
@@ -81,7 +94,7 @@ void prete::on_SaisirLePrete_clicked()
     }
 
     // Mise à jour de la disponibilité du livre
-    query.prepare("UPDATE Livre SET disponible = '0' WHERE numLivre = :numLivre");
+    query.prepare("UPDATE Livre SET disponible = '0', nbrPrete = COALESCE(nbrPrete, 0) + 1 WHERE numLivre = :numLivre");
     query.bindValue(":numLivre", numLivre);
     if (!query.exec()) {
         qDebug() << "Update error:" << query.lastError().text();
@@ -90,5 +103,4 @@ void prete::on_SaisirLePrete_clicked()
     }
 
     QMessageBox::information(this, "Success", "Loan recorded and book availability updated");
-
 }

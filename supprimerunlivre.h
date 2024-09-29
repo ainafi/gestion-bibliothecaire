@@ -15,6 +15,9 @@ public:
     explicit supprimerUnLivre(QWidget *parent = nullptr);
     ~supprimerUnLivre();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::supprimerUnLivre *ui;
 };

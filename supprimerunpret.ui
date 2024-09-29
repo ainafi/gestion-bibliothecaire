@@ -53,7 +53,7 @@ font-weight:bold;
 }</string>
    </property>
    <property name="text">
-    <string>Recherche</string>
+    <string>Supprimer</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_2">

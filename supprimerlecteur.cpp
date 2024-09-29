@@ -5,6 +5,7 @@
 #include <QSqlDatabase>
 #include <QSqlQuery>
 #include <QSqlError>
+
 supprimerLecteur::supprimerLecteur(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::supprimerLecteur)
@@ -19,8 +20,9 @@ supprimerLecteur::~supprimerLecteur()
 
 void supprimerLecteur::on_supprimerLecteur_2_clicked()
 {
-    QString numLecteur=ui->numLecteur->text();
+    QString numLecteur = ui->numLecteur->text();
     QSqlDatabase database;
+
     if (QSqlDatabase::contains("qt_sql_default_connection")) {
         database = QSqlDatabase::database("qt_sql_default_connection");
     } else {
@@ -31,27 +33,38 @@ void supprimerLecteur::on_supprimerLecteur_2_clicked()
         database.setPassword("password");
     }
 
-
     if (!database.open()) {
         qDebug() << "Error: connection with database failed - " << database.lastError().text();
-        // QMessageBox::critical(this, "Database Connection Error", database.lastError().text());
+        QMessageBox::critical(this, "Database Connection Error", database.lastError().text());
         return;
     }
+
     QSqlQuery query;
-    // Vérification de l'existence et de la disponibilité du livre
+
+    // Vérification de l'existence du lecteur
     query.prepare("SELECT COUNT(*) FROM Lecteur WHERE numLecteur = :numLecteur");
     query.bindValue(":numLecteur", numLecteur);
     if (!query.exec()) {
-        qDebug() << "Livre check error:" << query.lastError().text();
-        QMessageBox::critical(this, "Error", "Erreur lors de la suppresion du lecteur");
+        qDebug() << "Lecteur check error:" << query.lastError().text();
+        QMessageBox::critical(this, "Error", "Erreur lors de la vérification du lecteur");
         return;
     }
+
     if (!query.next() || query.value(0).toInt() == 0) {
-        QMessageBox::warning(this, "Error", "Numero de Lecteur inexistant ou indisponible");
+        QMessageBox::warning(this, "Error", "Numéro de lecteur inexistant ou indisponible");
         return;
     }
 
-    QMessageBox::information(this, "Success", "Lecteur supprimer avec success");
+    // Suppression du lecteur
+    query.prepare("DELETE FROM Lecteur WHERE numLecteur = :numLecteur");
+    query.bindValue(":numLecteur", numLecteur);
+    if (!query.exec()) {
+        qDebug() << "Lecteur delete error:" << query.lastError().text();
+        QMessageBox::critical(this, "Error", "Erreur lors de la suppression du lecteur");
+        return;
+    }
 
+    QMessageBox::information(this, "Success", "Lecteur supprimé avec succès");
+
+    database.close();
 }
-

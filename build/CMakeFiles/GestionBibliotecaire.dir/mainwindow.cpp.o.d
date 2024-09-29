@@ -351,6 +351,13 @@ CMakeFiles/GestionBibliotecaire.dir/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qinputmethod.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication_platform.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMenuBar \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenubar.h \
@@ -368,6 +375,7 @@ CMakeFiles/GestionBibliotecaire.dir/mainwindow.cpp.o: \
  /home/ainafinaritra/Documents/gestion-bibliothecaire/createlecteur.h \
  /home/ainafinaritra/Documents/gestion-bibliothecaire/modifierunlecteur.h \
  /home/ainafinaritra/Documents/gestion-bibliothecaire/supprimerlecteur.h \
+ /home/ainafinaritra/Documents/gestion-bibliothecaire/situationlivre.h \
  /home/ainafinaritra/Documents/gestion-bibliothecaire/ajouterunlivre.h \
  /home/ainafinaritra/Documents/gestion-bibliothecaire/modifierunlivre.h \
  /home/ainafinaritra/Documents/gestion-bibliothecaire/supprimerunlivre.h \

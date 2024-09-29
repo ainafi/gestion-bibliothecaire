@@ -15,7 +15,7 @@ class modifierUnLecteur;
 class supprimerLecteur;
 class listLecteur;
 //livre
-
+class situationLivre;
 class ajouterUnLivre;
 class modifierUnLivre;
 class supprimerUnLivre;
@@ -58,6 +58,8 @@ private slots:
 
     void on_ListPret_clicked();
 
+    void on_situation_clicked();
+
 private:
     Ui::MainWindow *ui;
     createLecteur *ptrCreateLecteur;
@@ -65,6 +67,7 @@ private:
     supprimerLecteur *ptrSupprimerLecteur;
     listLecteur *ptrListLecteur;
 
+    situationLivre *ptrSituaionLivre;
     ajouterUnLivre *ptrAjouterUnLivre;
     modifierUnLivre *ptrModifierUnLivre;
     supprimerUnLivre *ptrSupprimerUnLivre;

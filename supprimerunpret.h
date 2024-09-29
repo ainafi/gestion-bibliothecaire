@@ -15,6 +15,9 @@ public:
     explicit supprimerUnPret(QWidget *parent = nullptr);
     ~supprimerUnPret();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::supprimerUnPret *ui;
 };

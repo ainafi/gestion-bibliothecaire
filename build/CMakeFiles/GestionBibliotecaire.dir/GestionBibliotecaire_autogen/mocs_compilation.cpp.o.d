@@ -362,6 +362,8 @@ CMakeFiles/GestionBibliotecaire.dir/GestionBibliotecaire_autogen/mocs_compilatio
  /home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/EWIEGA46WW/../../../modifierunpret.h \
  /home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/EWIEGA46WW/moc_prete.cpp \
  /home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/EWIEGA46WW/../../../prete.h \
+ /home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/EWIEGA46WW/moc_situationlivre.cpp \
+ /home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/EWIEGA46WW/../../../situationlivre.h \
  /home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/EWIEGA46WW/moc_supprimerlecteur.cpp \
  /home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/EWIEGA46WW/../../../supprimerlecteur.h \
  /home/ainafinaritra/Documents/gestion-bibliothecaire/build/GestionBibliotecaire_autogen/EWIEGA46WW/moc_supprimerunlivre.cpp \

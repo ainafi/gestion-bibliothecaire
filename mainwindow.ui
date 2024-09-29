@@ -6,32 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>972</width>
-    <height>980</height>
+    <width>1398</width>
+    <height>674</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="creationficherLecteur">
-    <property name="geometry">
-     <rect>
-      <x>720</x>
-      <y>0</y>
-      <width>191</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Creation ficher Lecteur</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="ajoutLecteur">
     <property name="geometry">
      <rect>
-      <x>720</x>
-      <y>70</y>
+      <x>950</x>
+      <y>10</y>
       <width>191</width>
       <height>61</height>
      </rect>
@@ -43,8 +30,8 @@
    <widget class="QPushButton" name="ModifLecteur">
     <property name="geometry">
      <rect>
-      <x>720</x>
-      <y>140</y>
+      <x>1160</x>
+      <y>10</y>
       <width>191</width>
       <height>61</height>
      </rect>
@@ -56,8 +43,8 @@
    <widget class="QPushButton" name="SupprLecteur">
     <property name="geometry">
      <rect>
-      <x>720</x>
-      <y>210</y>
+      <x>1170</x>
+      <y>90</y>
       <width>191</width>
       <height>61</height>
      </rect>
@@ -66,24 +53,11 @@
      <string>Supprimer un Lecteur</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="CreeFicherLivre">
-    <property name="geometry">
-     <rect>
-      <x>720</x>
-      <y>320</y>
-      <width>191</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Creation ficher livre</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="AjoutLivre">
     <property name="geometry">
      <rect>
-      <x>720</x>
-      <y>390</y>
+      <x>950</x>
+      <y>180</y>
       <width>191</width>
       <height>61</height>
      </rect>
@@ -95,8 +69,8 @@
    <widget class="QPushButton" name="SupprLivre">
     <property name="geometry">
      <rect>
-      <x>720</x>
-      <y>530</y>
+      <x>950</x>
+      <y>260</y>
       <width>191</width>
       <height>61</height>
      </rect>
@@ -108,8 +82,8 @@
    <widget class="QPushButton" name="SaisieDesPretes">
     <property name="geometry">
      <rect>
-      <x>720</x>
-      <y>600</y>
+      <x>950</x>
+      <y>350</y>
       <width>191</width>
       <height>61</height>
      </rect>
@@ -121,8 +95,8 @@
    <widget class="QPushButton" name="ModifPret">
     <property name="geometry">
      <rect>
-      <x>720</x>
-      <y>670</y>
+      <x>1170</x>
+      <y>350</y>
       <width>191</width>
       <height>61</height>
      </rect>
@@ -134,8 +108,8 @@
    <widget class="QPushButton" name="SupprPret">
     <property name="geometry">
      <rect>
-      <x>720</x>
-      <y>740</y>
+      <x>950</x>
+      <y>440</y>
       <width>191</width>
       <height>61</height>
      </rect>
@@ -147,8 +121,8 @@
    <widget class="QPushButton" name="ListPret">
     <property name="geometry">
      <rect>
-      <x>720</x>
-      <y>810</y>
+      <x>1170</x>
+      <y>440</y>
       <width>191</width>
       <height>61</height>
      </rect>
@@ -157,11 +131,11 @@
      <string>Liste des prete d'un Lecteur</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_12">
+   <widget class="QPushButton" name="situation">
     <property name="geometry">
      <rect>
-      <x>720</x>
-      <y>880</y>
+      <x>1170</x>
+      <y>260</y>
       <width>191</width>
       <height>61</height>
      </rect>
@@ -173,8 +147,8 @@
    <widget class="QPushButton" name="SupprLivre_2">
     <property name="geometry">
      <rect>
-      <x>720</x>
-      <y>460</y>
+      <x>1170</x>
+      <y>180</y>
       <width>191</width>
       <height>61</height>
      </rect>
@@ -186,14 +160,82 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>720</x>
-      <y>280</y>
+      <x>950</x>
+      <y>90</y>
       <width>191</width>
-      <height>31</height>
+      <height>61</height>
      </rect>
     </property>
     <property name="text">
      <string>Listage Lecteur</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>931</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/Frame 1.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>510</y>
+      <width>311</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RAZANAMINO Fanomezantsoa Aina F. 1876 HF</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>530</y>
+      <width>311</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ANDRIAMANTENA Fanirisoa Manuella 1880 HF</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>550</y>
+      <width>311</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RAZAFINETSY Theord Julianah 1886 HF</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>570</y>
+      <width>311</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RAJAOFETRA Tellyo Axel 2000 HF</string>
     </property>
    </widget>
   </widget>
@@ -202,7 +244,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>972</width>
+     <width>1398</width>
      <height>22</height>
     </rect>
    </property>

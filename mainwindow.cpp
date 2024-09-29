@@ -4,6 +4,7 @@
 #include "createlecteur.h"
 #include "modifierunlecteur.h"
 #include "supprimerlecteur.h"
+#include "situationlivre.h"
 #include "ajouterunlivre.h"
 #include "modifierunlivre.h"
 #include "supprimerunlivre.h"
@@ -20,6 +21,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ptrSupprimerLecteur(nullptr)
     , ptrListLecteur(nullptr)
     //livre
+    ,ptrSituaionLivre(nullptr)
     , ptrAjouterUnLivre(nullptr)
     , ptrModifierUnLivre(nullptr)
     , ptrSupprimerUnLivre(nullptr)
@@ -145,4 +147,13 @@ void MainWindow::on_ListPret_clicked()
     ptrListPret->show();
 }
 
+
+
+void MainWindow::on_situation_clicked()
+{
+    if(!ptrSituaionLivre){
+        ptrSituaionLivre=new situationLivre();
+    }
+    ptrSituaionLivre->show();
+}
 

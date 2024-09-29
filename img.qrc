@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>2301.i121.022.F.m005.c9.isometric library horizontal banner.jpg</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Frame 1.png</file>
+    </qresource>
+</RCC>
